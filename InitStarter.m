@@ -11,7 +11,7 @@ global GelState GelSimParams rescaled
 load('InitialData.mat')
 
 %Add the directory where all source files reside to the path
-path('~/Matlab/ImplicitBuffering',path)
+addpath('~/Matlab/Mucus_pH_diffus/')
 
 %Call the main time integration loop
 MainTimeLoop
